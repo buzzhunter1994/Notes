@@ -33,11 +33,11 @@ AppAsset::register($this);
         'brandLabel' => Yii::t('notes', 'Notes'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'navbar-fixed-top',
         ],
     ]);
     $menuItems = [
-        ['label' => 'Создать заметку', 'url' => ['/notes/create']],
+        ['label' => 'Создать заметку', 'url' => ['/notes/create'],['class' => 'btn-success']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Зарегистрироваться', 'url' => ['/site/signup']];
