@@ -66,4 +66,40 @@ return array (
       '@giovdk21/yii2SyntaxHighlighter' => $vendorDir . '/giovdk21/yii2-syntaxhighlighter',
     ),
   ),
+  'himiklab/yii2-colorbox-widget' => 
+  array (
+    'name' => 'himiklab/yii2-colorbox-widget',
+    'version' => '1.0.3.0',
+    'alias' => 
+    array (
+      '@himiklab/colorbox' => $vendorDir . '/himiklab/yii2-colorbox-widget',
+    ),
+  ),
+  'kartik-v/yii2-krajee-base' => 
+  array (
+    'name' => 'kartik-v/yii2-krajee-base',
+    'version' => '1.8.7.0',
+    'alias' => 
+    array (
+      '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base',
+    ),
+  ),
+  'kartik-v/yii2-widget-fileinput' => 
+  array (
+    'name' => 'kartik-v/yii2-widget-fileinput',
+    'version' => '1.0.5.0',
+    'alias' => 
+    array (
+      '@kartik/file' => $vendorDir . '/kartik-v/yii2-widget-fileinput',
+    ),
+  ),
+  'nemmo/yii2-attachments' => 
+  array (
+    'name' => 'nemmo/yii2-attachments',
+    'version' => '1.0.0.0-beta2',
+    'alias' => 
+    array (
+      '@nemmo/attachments' => $vendorDir . '/nemmo/yii2-attachments/src',
+    ),
+  ),
 );

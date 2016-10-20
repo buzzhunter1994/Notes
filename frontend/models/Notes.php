@@ -35,6 +35,16 @@ class Notes extends \yii\db\ActiveRecord
         ];
     }
 
+    public function behaviors()
+    {
+        return [
+            'fileBehavior' => [
+            'class' => \nemmo\attachments\behaviors\FileBehavior::className()
+        ]
+
+    ];
+}
+
     /**
      * @inheritdoc
      */

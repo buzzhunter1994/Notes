@@ -49,6 +49,18 @@ return [
             'basePath' => '@webroot/assets',
             'baseUrl' => '@web/assets'
         ],
+        'i18n' => [
+            'translations' => [
+                'app*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    // каталог, где будут располагаться словари
+                    'basePath' => '@app/messages',
+                    // исходный язык, на котором изначально
+                    // написаны фразы в приложении
+                    'sourceLanguage' => 'en-US',
+                ],
+            ],
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

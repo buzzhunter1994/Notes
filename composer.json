@@ -12,13 +12,13 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-		"giovdk21/yii2-syntaxhighlighter": "dev-master"
+		"giovdk21/yii2-syntaxhighlighter": "dev-master",
+		"nemmo/yii2-attachments": "~1.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -29,6 +29,8 @@
     "config": {
         "process-timeout": 1800
     },
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",

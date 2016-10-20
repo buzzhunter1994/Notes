@@ -23,6 +23,24 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        'n' => 
+        array (
+            'nemmo\\attachments\\' => 18,
+        ),
+        'k' => 
+        array (
+            'kartik\\plugins\\fileinput\\' => 25,
+            'kartik\\file\\' => 12,
+            'kartik\\base\\' => 12,
+        ),
+        'h' => 
+        array (
+            'himiklab\\colorbox\\' => 18,
+        ),
+        'g' => 
+        array (
+            'giovdk21\\yii2SyntaxHighlighter\\' => 31,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -65,6 +83,30 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'nemmo\\attachments\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nemmo/yii2-attachments/src',
+        ),
+        'kartik\\plugins\\fileinput\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/bootstrap-fileinput',
+        ),
+        'kartik\\file\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-fileinput',
+        ),
+        'kartik\\base\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
+        ),
+        'himiklab\\colorbox\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/himiklab/yii2-colorbox-widget',
+        ),
+        'giovdk21\\yii2SyntaxHighlighter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/giovdk21/yii2-syntaxhighlighter',
         ),
         'cebe\\markdown\\' => 
         array (
