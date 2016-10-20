@@ -19,9 +19,8 @@
 return [
     'Are you sure you want to delete this item?' => 'Ви впевнені, що хочете видалити цей елемент?',
     'Create' => 'Створити',
-    'Create note' => 'Створити заметку',
+    'Create note' => 'Створити нотатку',
     'Delete' => 'Видалити',
     'Notes' => 'Нотатки',
     'Update' => 'Змінити',
-    'Update {modelClass}: ' => 'Змінити {modelClass}: ',
 ];

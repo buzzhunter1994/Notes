@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'aria-multiselectable' => 'true'
         ],
         'itemOptions' => [
-            'class'=> 'panel panel-success'
+            'class'=> 'panel panel-primary'
         ]
     ]);
     ?>

@@ -112,5 +112,8 @@ a.desc:after {
 
 
 .panel-heading{padding:0;}
-.panel-heading a{display:block;font-size:16px;padding:10px 15px; text-decoration:none;color:#444444;}
+.panel-heading a{display:block;font-size:16px;padding:10px 15px; text-decoration:none;color:#ffffff;text-shadow: 0 1px 1px rgba(0,0,0,0.5);}
+.attachment {display: inline-block; }
+.attachment img{vertical-align: text-bottom;}
+.attachment span{vertical-align: bottom;}
 

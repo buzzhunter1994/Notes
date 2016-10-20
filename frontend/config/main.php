@@ -61,6 +61,16 @@ return [
                 ],
             ],
         ],
+        'formatter' => [
+            'class' => 'yii\i18n\Formatter',
+            'dateFormat' => 'php:d.m.Y',
+            'datetimeFormat' => 'php:j F, H:i',
+            'timeFormat' => 'php:H:i:s',
+            'defaultTimeZone' => 'Europe/Kiev',
+
+            'locale' => 'ru-RU'
+
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

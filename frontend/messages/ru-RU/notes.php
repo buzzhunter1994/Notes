@@ -23,5 +23,4 @@ return [
     'Delete' => 'Удалить',
     'Notes' => 'Заметки',
     'Update' => 'Изменить',
-    'Update {modelClass}: ' => 'Изменить {modelClass}: ',
 ];
