@@ -64,7 +64,9 @@ class Notes extends \yii\db\ActiveRecord
 	public function beforeSave($insert)
 	{
 		if (parent::beforeSave($insert)) {
-	 
+
+            if (!$this->title)
+                $this->title = Yii::t('notes', 'Note from ') . date("Y.m.d H:i");
 			$this->date = time();
 			return true;
 		}

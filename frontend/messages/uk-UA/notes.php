@@ -17,6 +17,7 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'Note from ' => 'Нотатка від ',
     'Are you sure you want to delete this item?' => 'Ви впевнені, що хочете видалити цей елемент?',
     'Create' => 'Створити',
     'Create note' => 'Створити нотатку',
