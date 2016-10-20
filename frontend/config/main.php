@@ -51,7 +51,7 @@ return [
         ],
         'i18n' => [
             'translations' => [
-                'app*' => [
+                '*' => [
                     'class' => 'yii\i18n\PhpMessageSource',
                     // каталог, где будут располагаться словари
                     'basePath' => '@app/messages',

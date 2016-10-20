@@ -17,12 +17,11 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Are you sure you want to delete this item?' => '',
-    'Create' => '',
-    'Create Notes' => '',
-    'Delete' => '',
-    'Notes' => '',
-    'Update' => '',
-    'Update {modelClass}: ' => '',
-    'Заметки' => '',
+    'Are you sure you want to delete this item?' => 'Вы уверены, что хотите удалить этот элемент?',
+    'Create' => 'Создать',
+    'Create note' => 'Создать заметку',
+    'Delete' => 'Удалить',
+    'Notes' => 'Заметки',
+    'Update' => 'Изменить',
+    'Update {modelClass}: ' => 'Изменить {modelClass}: ',
 ];

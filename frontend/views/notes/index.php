@@ -8,7 +8,7 @@ use yii\widgets\ListView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app', 'Заметки');
+$this->title = Yii::t('notes', 'Notes');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="notes-index">

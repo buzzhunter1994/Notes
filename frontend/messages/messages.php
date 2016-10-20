@@ -1,11 +1,11 @@
 <?php
 return [
-    'sourcePath' => __DIR__ . DIRECTORY_SEPARATOR . '..'. DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..',
+    'sourcePath' => __DIR__ . DIRECTORY_SEPARATOR . '..'. DIRECTORY_SEPARATOR . '..',
     'languages' => ['ru','ru-RU', 'uk-UA'],
     'translator' => 'Yii::t',
     'sort' => false,
-    'removeUnused' => false,
-    'markUnused' => true,
+    'removeUnused' => true,
+    //'markUnused' => true,
     'only' => ['*.php'],
     'except' => [
         '.svn',
