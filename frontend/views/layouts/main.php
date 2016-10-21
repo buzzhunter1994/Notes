@@ -32,12 +32,9 @@ AppAsset::register($this);
     NavBar::begin([
         'brandLabel' => Yii::t('notes', 'Notes'),
         'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-fixed-top',
-        ],
     ]);
     $menuItems = [
-        ['label' => 'Создать заметку', 'url' => ['/notes/create'],['class' => 'btn-success']],
+        ['label' => 'Создать заметку', 'url' => ['/notes/create'],['options' => ['class'=>'create_btn' ]]],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Зарегистрироваться', 'url' => ['/site/signup']];

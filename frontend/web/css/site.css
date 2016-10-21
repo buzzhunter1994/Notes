@@ -116,4 +116,4 @@ a.desc:after {
 .attachment {display: inline-block; }
 .attachment img{vertical-align: text-bottom;}
 .attachment span{vertical-align: bottom;}
-
+.create_btn {border-radius: 4px; color: #3c763d; background: #dff0d8;}

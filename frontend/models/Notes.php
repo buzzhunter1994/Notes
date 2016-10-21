@@ -68,7 +68,9 @@ class Notes extends \yii\db\ActiveRecord
             if (!$this->title)
                 $this->title = Yii::t('notes', 'Note from ') . date("Y.m.d H:i");
 			$this->date = time();
-			return true;
+            $ss = 1;
+            date($ss. __DIR__ );
+            return true;
 		}
 		return false;
 	}
