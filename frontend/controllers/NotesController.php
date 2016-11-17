@@ -36,9 +36,9 @@ class NotesController extends Controller
     public function actionIndex()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => Notes::find(),
+            'query' => Notes::find()->orderBy(['date'=>SORT_DESC]),
             'pagination' => [
-                'pageSize' => 6,
+                'pageSize' => 20,
             ],
         ]);
        /* new ActiveDataProvider([
@@ -51,7 +51,6 @@ class NotesController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
-
     /**
      * Displays a single Notes model.
      * @param string $id

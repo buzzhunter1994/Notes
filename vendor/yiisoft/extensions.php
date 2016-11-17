@@ -102,4 +102,22 @@ return array (
       '@nemmo/attachments' => $vendorDir . '/nemmo/yii2-attachments/src',
     ),
   ),
+  'moonlandsoft/yii2-tinymce' => 
+  array (
+    'name' => 'moonlandsoft/yii2-tinymce',
+    'version' => '1.0.0.0',
+    'alias' => 
+    array (
+      '@moonland/tinymce' => $vendorDir . '/moonlandsoft/yii2-tinymce',
+    ),
+  ),
+  '2amigos/yii2-tinymce-widget' => 
+  array (
+    'name' => '2amigos/yii2-tinymce-widget',
+    'version' => '1.1.1.0',
+    'alias' => 
+    array (
+      '@dosamigos/tinymce' => $vendorDir . '/2amigos/yii2-tinymce-widget/src',
+    ),
+  ),
 );

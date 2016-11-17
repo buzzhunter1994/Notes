@@ -27,6 +27,11 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         array (
             'nemmo\\attachments\\' => 18,
         ),
+        'm' => 
+        array (
+            'moonland\\tinymce\\' => 17,
+            'moonland\\helpers\\' => 17,
+        ),
         'k' => 
         array (
             'kartik\\plugins\\fileinput\\' => 25,
@@ -40,6 +45,10 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         'g' => 
         array (
             'giovdk21\\yii2SyntaxHighlighter\\' => 31,
+        ),
+        'd' => 
+        array (
+            'dosamigos\\tinymce\\' => 18,
         ),
         'c' => 
         array (
@@ -88,6 +97,14 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         array (
             0 => __DIR__ . '/..' . '/nemmo/yii2-attachments/src',
         ),
+        'moonland\\tinymce\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/moonlandsoft/yii2-tinymce',
+        ),
+        'moonland\\helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/moonlandsoft/helpers',
+        ),
         'kartik\\plugins\\fileinput\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/bootstrap-fileinput',
@@ -107,6 +124,10 @@ class ComposerStaticInit0d1d3c13f80202964b8b82ff7f2fb863
         'giovdk21\\yii2SyntaxHighlighter\\' => 
         array (
             0 => __DIR__ . '/..' . '/giovdk21/yii2-syntaxhighlighter',
+        ),
+        'dosamigos\\tinymce\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-tinymce-widget/src',
         ),
         'cebe\\markdown\\' => 
         array (

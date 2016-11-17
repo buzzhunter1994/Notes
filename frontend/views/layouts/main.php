@@ -22,6 +22,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.19.0/codemirror.min.css">
+    <link rel="stylesheet" href="//www.tinymce.com/css/codepen.min.css">
     <?php $this->head() ?>
 </head>
 <body>

@@ -4,16 +4,25 @@ use yii\helpers\Html;
 use giovdk21\yii2SyntaxHighlighter\SyntaxHighlighter as SyntaxHighlighter;
 ?>
 
-<div class="panel-heading">
-	<a href="#post-<?= $model->id ?>" data-toggle="collapse" aria-expanded="false" aria-controls="post-<?= $model->id ?>"  data-parent="#accordion" ><?= Html::encode($model->title) ?> <span class="pull-right"><?=Yii::$app->formatter->asDatetime($model->date)?></span></a>
+<div class="panel-heading clearfix">
+	<a href="#post-<?= $model->id ?>" data-toggle="collapse" aria-expanded="false" aria-controls="post-<?= $model->id ?>" class="pull-left" data-parent="#accordion" >
+	<?= Html::encode($model->title) ?> :: <?=Yii::$app->formatter->asDatetime($model->date)?>
+	</a>
+	<span class="pull-right">
+		<a href="/notes/update?id=<?= $model->id ?>" class="btn btn-primary">Изменить</a>
+	</span>
 </div>
 <div id="post-<?= $model->id ?>" class="collapse panel-body">
 	<?php
-	if ($model->text){
+    if ($model->text){
+        echo $model->text;
+    }
+	/*
+    if ($model->text){
 		SyntaxHighlighter::begin(['brushes' => ['php']]);
 		echo SyntaxHighlighter::getBlock($model->text, 'php');
 		SyntaxHighlighter::end();
-	}
+	}*/
 	if ($model->files) {
 		foreach ($model->files as $file) {
 			switch ($file->type) {

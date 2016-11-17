@@ -39,7 +39,7 @@ class Notes extends \yii\db\ActiveRecord
     {
         return [
             'fileBehavior' => [
-            'class' => \nemmo\attachments\behaviors\FileBehavior::className()
+                'class' => \nemmo\attachments\behaviors\FileBehavior::className()
             ]
         ];
     }
@@ -67,9 +67,7 @@ class Notes extends \yii\db\ActiveRecord
 
             if (!$this->title)
                 $this->title = Yii::t('notes', 'Note from ') . date("Y.m.d H:i");
-			$this->date = time();
-            $ss = 1;
-            date($ss. __DIR__ );
+			if ($insert) $this->date = time();
             return true;
 		}
 		return false;
